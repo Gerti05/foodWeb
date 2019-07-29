@@ -64,6 +64,27 @@ section {
   padding: 80px 0;
 }
 
+a:link,
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  color: #ffc107;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.org-btn {
+  color: #ffc107 !important;
+}
+
+.org-btn:hover {
+  color: black !important;
+}
+
 .section-p {
   font-size: 90%;
   line-height: 145%;
@@ -116,6 +137,8 @@ section {
 
 .section-meals {
   padding: 0;
+  padding-top: 20px;
+  background-color: #f4f4f4;
 }
 
 .meals-showcase {
@@ -130,8 +153,8 @@ section {
 }
 
 .meal-photo img {
-  -webkit-filter: grayscale(1);
-          filter: grayscale(1);
+  -webkit-filter: grayscale(0.3);
+          filter: grayscale(0.3);
   -webkit-transition: -webkit-transform 0.5s, -webkit-filter 0.5s;
   transition: -webkit-transform 0.5s, -webkit-filter 0.5s;
   transition: transform 0.5s, filter 0.5s;
@@ -147,7 +170,9 @@ section {
 }
 
 .app-screen {
+  margin-top: 50px;
   width: 40%;
+  height: auto;
 }
 
 .options {
@@ -187,6 +212,10 @@ section {
   display: block;
   height: 0;
   visibility: hidden;
+}
+
+.section-cities {
+  background-color: #f4f4f4;
 }
 
 @media only screen and (max-width: 800px) {
