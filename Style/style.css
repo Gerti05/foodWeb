@@ -64,6 +64,18 @@ section {
   padding: 80px 0;
 }
 
+blockquote {
+  font-style: italic;
+  padding-right: 2%;
+  line-height: 145%;
+  font-size: 90%;
+}
+
+cite {
+  color: #ffc107;
+  font-size: 90%;
+}
+
 a:link,
 a:visited {
   color: black;
@@ -216,6 +228,14 @@ a:active {
 
 .section-cities {
   background-color: #f4f4f4;
+}
+
+.cities-img {
+  border-radius: 10px;
+}
+
+.testimonial-img {
+  border-radius: 10%;
 }
 
 @media only screen and (max-width: 800px) {
