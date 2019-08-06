@@ -163,7 +163,7 @@ a:active {
 }
 
 .meal-photo img {
-  filter: grayscale(0.3);
+  filter: grayscale(0.2);
   transition: transform 0.5s, filter 0.5s;
   border-radius: 10%;
 }
@@ -227,6 +227,51 @@ a:active {
 
 .testimonial-img {
   border-radius: 10%;
+}
+
+.section-plans {
+  background-color: #f4f4f4;
+}
+
+.plans-box {
+  background-color: #fff;
+  border-radius: 5px;
+  width: 90%;
+  margin-left: 5%;
+  box-shadow: 0 2px 2px #efefef;
+}
+
+.plans-box div {
+  padding: 15px;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.plans-box div:first-child {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.plans-box div:last-child {
+  text-align: center;
+}
+
+.plan-price {
+  font-size: 200%;
+  margin-bottom: 10px;
+  font-weight: 100;
+  color: #ffc107;
+}
+
+.plan-price-meal {
+  font-size: 80%;
+}
+
+.plans-box ul {
+  list-style: none;
+}
+
+.plans-box ul li {
+  padding: 5px 0;
 }
 
 @media only screen and (max-width: 800px) {
